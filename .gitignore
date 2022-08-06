@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+ # Add config.py to my .gitignore
+ config.py
+ 
+ # Add two large CVS file to .gitignore
+ movies_metadata.csv
+ ratings.csv
