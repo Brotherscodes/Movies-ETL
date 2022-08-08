@@ -2,7 +2,7 @@
 
 ## Project Overview:
 
-An Extract-Transform-Load pipeline was created to extract the three movie related databases provided and then loaded into a single database. Data can come from many sources, but most needs to be cleaned and structured before any noteworthy analysis can be performed. Using Python and Pandas I explored the data and performed any neccessary data transformation to maintain its integrity and consistency. Lastly, the clean final data was loaded into a postgreSQL database.
+An Extract-Transform-Load pipeline was created to extract the three movie related databases provided and then loaded into a single SQL database. Data can come from many sources, but most needs to be cleaned and structured before any noteworthy analysis can be performed. Using Python and Pandas I explored the data and performed any neccessary data transformation to maintain its integrity and consistency. Lastly, the clean final data was loaded into a postgreSQL database.
 
 <br />
 <br />
@@ -26,7 +26,7 @@ An Extract-Transform-Load pipeline was created to extract the three movie relate
 
 <br />
 
-### A file directory was created and used to read in the three data files. Variables were created for these files as seen below. Using the "with open" statement I read in the two CSV files as Pandas DataFrames and the json file on json format for better readability. Please reference the complete "ETL_create_database.ipynb" file in the Project_Files folder in this repositiory to see the completed ETL function I used to import the movie data and transform/parse the data.
+### A file directory was created and used to read in the three data files. Variables were created for these files as seen below. Using the "with open" statement I read in the two CSV files as Pandas DataFrames and the json file in json format for better readability. Please reference the complete "ETL_create_database.ipynb" file in the Project_Files folder in this repositiory to see the completed ETL function I used to import the movie data and transform/parse the data.
 
 <br />
 
@@ -88,6 +88,10 @@ An Extract-Transform-Load pipeline was created to extract the three movie relate
 <image src="Images/ratings_query.png" width="50%"
 
 <br />
+
+<br />
+
+### The data we started with was cleaned by calling our single function we wrote defined as "extract_transform_load."
 
 <br />
 
