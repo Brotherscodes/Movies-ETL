@@ -91,7 +91,7 @@ An `Extract-Transform-Load` pipeline was created to extract the three movie rela
 
 <br />
 
-#### The data we started with was cleaned by calling our single function we wrote defined as `"extract_transform_load."`
+#### The data we started with was cleaned by calling our single function we wrote defined as `"extract_transform_load"`.
 
 <br />
 
